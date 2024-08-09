@@ -70,6 +70,14 @@ mvn spring-boot:run
 
 ## UI Previews
 
+<img src="https://github.com/sasmithx/Spring-Security/blob/main/Screenshots/Sign%20in.png" width="600px" height="auto">
+
+<img src="https://github.com/sasmithx/Spring-Security/blob/main/Screenshots/Want%20to%20log%20out.png" width="600px" height="auto">
+
+<img src="https://github.com/sasmithx/Spring-Security/blob/main/Screenshots/sign%20out.png" width="600px" height="auto">
+
+<img src="https://github.com/sasmithx/Spring-Security/blob/main/Screenshots/Bad%20Credentials.png" width="600px" height="auto">
+
 
 ## License
 
