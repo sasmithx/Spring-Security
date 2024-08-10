@@ -8,6 +8,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.annotation.web.configurers.CsrfConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
@@ -24,18 +28,27 @@ public class SecurityConfig {
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .build();
-        //http.formLogin(Customizer.withDefaults());
 
-
-        /*Customizer<CsrfConfigurer<HttpSecurity>> custCrf = new Customizer<CsrfConfigurer<HttpSecurity>>() {
-            @Override
-            public void customize(CsrfConfigurer<HttpSecurity> customizer) {
-                customizer.disable();
-            }
-        };
-
-        http.csrf(custCrf);*/
-
-//        return http.build();
     }
+
+    @Bean
+    public UserDetailsService userDetailsService() {
+
+        UserDetails user1 = User
+                .withDefaultPasswordEncoder()
+                .username("pro")
+                .password("pro@1234")
+                .roles("User")
+                .build();
+
+        UserDetails user2 = User
+                .withDefaultPasswordEncoder()
+                .username("pro1")
+                .password("pro1@1234")
+                .roles("User")
+                .build();
+
+        return new InMemoryUserDetailsManager(user1,user2);
+    }
+
 }
