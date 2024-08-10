@@ -1,4 +1,4 @@
-package com.sasax.SpringSec;
+package com.sasax.SpringSec.model;
 
 public class Customer {
     private int id;
