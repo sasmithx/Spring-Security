@@ -83,6 +83,25 @@ mvn spring-boot:run
 
 This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details. 
 
+## 
+<br>
+
+<div align="center"> 
+<a href="https://github.com/sasmithx" target="_blank"><img src = "https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://git-scm.com/" target="_blank"><img src = "https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white"></a>
+<a href="https://jakarta.ee/compatibility/download/" target="_blank"><img src = "https://img.shields.io/badge/JakarthaEE-000000?style=for-the-badge&logo=eclipse&logoColor=white"></a>
+<a href="https://www.mysql.com/downloads/" target="_blank"><img src = "https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white"></a>
+<a href="https://maven.apache.org/download.cgi" target="_blank"><img src = "https://img.shields.io/badge/Maven-000000?style=for-the-badge&logo=apachemaven&logoColor=white"></a>
+<a href="https://tomcat.apache.org/download-90.cgi" target="_blank"><img src = "https://img.shields.io/badge/Tomcat-000000?style=for-the-badge&logo=apachetomcat&logoColor=white"></a>
+<a href="https://www.postman.com/downloads/" target="_blank"><img src = "https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=Postman&logoColor=white"></a>
+<a href="https://www.jetbrains.com/idea/download/?section=windows" target="_blank"><img src = "https://img.shields.io/badge/intellij-000000?style=for-the-badge&logo=intellijidea&logoColor=white"></a>
+<a href="https://www.asus.com/lk/" target="_blank"><img src = "https://img.shields.io/badge/asus%20laptop-000000?style=for-the-badge&logo=asus&logoColor=white"
+<a href="https://ubuntu.com/" target="_blank"><img src = "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"
+<a href="https://spring.io/projects/spring-boot"><img src = "https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"
+<a href="https://spring.io/projects/spring-security"><img src = "https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white"
+                                                
+</div>
+
 <br>
 
 <p align="center">
