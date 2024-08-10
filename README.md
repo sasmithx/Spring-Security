@@ -62,6 +62,7 @@ mvn spring-boot:run
 
 - '/login' : User login page.
 - '/logout' : User logout endpoint.
+- '/register' : Register endpoint.
 - '/customer' : Customer endpoint.
 
 ## Customizing the Security Configuration
